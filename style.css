@@ -8,7 +8,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    max-width: 1170px /* 📍 Максимальная ширина для контейнера */
+    max-width: 1140px; /* 📍 Максимальная ширина для контейнера */
 }
 
 body {
@@ -44,7 +44,7 @@ header span {
 }
 
 .text-wrapper { /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
-    max-width: 600px;
+    max-width: 425px;
     margin: 0 auto;
 }
 
@@ -72,7 +72,7 @@ header span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*gap: 20px;*/
+    gap: 60px;
 
 }
 
@@ -118,7 +118,7 @@ select:hover,
 
 .frameworks-list,
 .books-list {  /* 📍 Свойства flexbox для отступов между элементами в списках */
-    gap: 20px;
+    gap: 16px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -132,7 +132,7 @@ select:hover,
 
 .skills-block { /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: flex-start;
     gap: 10px;
 }
@@ -140,7 +140,7 @@ select:hover,
 .skills {   /* 📍 Свойства flexbox для расположения элементов с классом .label */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .books-list {
@@ -207,7 +207,7 @@ footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
     display: flex;
-    justify-content: center;/* 📍 Свойство для расположения ссылки горизонтально по центру */
+    text-align: center/* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
 .footer-link {
